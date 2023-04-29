@@ -1,7 +1,7 @@
 # Create Scene Graphs
 
 ```
-clone https://github.com/microsoft/scene_graph_benchmark.git and install all dependencies
+git clone https://github.com/microsoft/scene_graph_benchmark.git and install all dependencies
 ```
 
 ```
