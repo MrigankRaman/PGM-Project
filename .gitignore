@@ -1,0 +1,15 @@
+*.pth
+*.png
+scene_graph_benchmark/
+X-VLM_new/
+cocoapi/
+model1.pt
+checkpoint-1000/
+checkpoint-3000/
+apex/
+HGN/
+data/
+__pycache__/
+Scene-Graph-Benchmark.pytorch/
+nlvr2_train_100.json
+*.pt
