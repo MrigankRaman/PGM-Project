@@ -52,7 +52,7 @@ class SceneGraphDataset(Dataset):
                 self.filtered_examples.append(ann)
                 self.filtered_vecs.append(vec)
 
-        print(len(self.filtered_examples), len(self.data))
+#         print(len(self.filtered_examples), len(self.data))
         # import ipdb; ipdb.set_trace()
 
         self.tokenizer = AutoTokenizer.from_pretrained("roberta-large")
