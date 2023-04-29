@@ -28,5 +28,7 @@ Once scene graphs are generated, change the path of the scene graphs and the dat
 python gcn.py
 ```
 
+We release the pretrained features used by us and our final checkpoint [here](https://drive.google.com/drive/folders/18dZGPH1G1RoJ3tSZ2FEYyYABTm__85hr?usp=sharing)
+
 
 
