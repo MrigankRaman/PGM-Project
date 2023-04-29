@@ -1,6 +1,6 @@
 # Create Scene Graphs
 
-Download the data by following instructions of [official NLVR2 website](https://github.com/QData/TextAttack](https://lil.nlp.cornell.edu/nlvr/)
+Download the data by following instructions of [official NLVR2 website](https://lil.nlp.cornell.edu/nlvr/)
 
 ```
 git clone https://github.com/microsoft/scene_graph_benchmark.git
