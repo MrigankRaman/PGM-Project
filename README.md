@@ -11,6 +11,17 @@ Install all dependencies in the repo and then run the following command to gener
 python tools/demo/demo_image.py --config_file sgg_configs/vrd/R152FPN_vrd_reldn.yaml --img_file demo/1024px-Gen_Robert_E_Lee_on_Traveler_at_Gettysburg_Pa.jpg --save_file output/1024px-Gen_Robert_E_Lee_on_Traveler_at_Gettysburg_Pa.reldn_relation.jpg --visualize_relation MODEL.ROI_RELATION_HEAD.DETECTOR_PRE_CALCULATED False 
 ```
 
+# Setting up the environment
+
+    conda create -n MVP python=3.10
+    pip install torch==1.12.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+    pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-1.12.1+cu116.html
+    pip install transformers
+    
+
+
+# Run the model
+
 Once scene graphs are generated, change the path of the scene graphs and the data and run the following command to train and evaluate the model
 
 ```
