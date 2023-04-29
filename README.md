@@ -1,6 +1,6 @@
 # Create Scene Graphs
 
-Download the data by following instructions of [official NLVR2 website](https://lil.nlp.cornell.edu/nlvr/)
+Download the data by following instructions of [official NLVR2 website](https://lil.nlp.cornell.edu/nlvr/) and then follow the following instructions to create the scene graphs
 
 ```
 git clone https://github.com/microsoft/scene_graph_benchmark.git
