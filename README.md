@@ -13,7 +13,7 @@ python tools/demo/demo_image.py --config_file sgg_configs/vrd/R152FPN_vrd_reldn.
 
 # Setting up the environment
 
-    conda create -n MVP python=3.10
+    conda create -n SGNN python=3.10
     pip install torch==1.12.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
     pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-1.12.1+cu116.html
     pip install transformers
